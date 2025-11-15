@@ -1,0 +1,15 @@
+Converter Arquivos do QR Designer
+
+pyside6-uic nome_da_UI.ui -o nome_do_arquivo_python.py ----> Converter Interface
+
+pyside6-rcc nome_do_arquivo_de_recursos.qrc -o arquivo_em_Python.py ----> Converter Imagens
+
+
+Usar projeto em outra Máquina:
+
+venv\Scripts\activate ou deactivate --> Ativa e Desativa Ambiente Virtual
+
+pip install -r requirements.txt --> gerar dependencias 
+
+Banco SQLite3, arquivo local
+
